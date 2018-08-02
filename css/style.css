@@ -1,0 +1,106 @@
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  padding: 10px;
+  padding-top: 70vh !important;
+}
+
+#header-hr {
+  margin-top: 1vh;
+  border-color: black;
+}
+
+main {}
+
+#projects {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  flex: none;
+  width: 100%;
+}
+
+.project {
+  border-style: solid;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.project-title {
+  line-height: 1em;
+}
+
+.project-img {
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-link {}
+
+@media screen and (max-width: 1200px) and (min-width: 850px) {
+  .project {
+    padding: 25px;
+    width: 350px;
+  }
+}
+
+.hr {
+  margin-top: 50px;
+}
+
+#profile {
+  padding-top: 50px;
+  text-align: center;
+  margin: 20px;
+  height: 75vh;
+}
+
+a {
+  color: darkblue;
+}
+
+#profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+}
